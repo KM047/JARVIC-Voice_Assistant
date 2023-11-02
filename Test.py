@@ -5,9 +5,7 @@ import sys
 import speech_recognition as sr
 import os
 
-# model = Model("C:\\Users\\kunal\\Desktop\\Final Year Project\\Jarvis VA\\Structure Jarvis\\Mod - 3\\Database\\vosk-model-en-in-0.5")
-# model = Model("Database\\vosk-model-small-en-us-0.15")
-model = Model("Database\\vosk-model-en-in-0.5")
+model = Model("Database\\vosk-model-small-en-in-0.4")
 recognizer = KaldiRecognizer(model, 16000)
 
 # mic = pyaudio.PyAudio()
