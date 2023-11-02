@@ -1,0 +1,328 @@
+{
+    "intents":[
+
+        {
+            "tag": "greeting",
+            "patterns": [
+              "hello",
+              "hi",
+              "hey",
+              "jarvis"
+            ],
+            "responses": [
+              "Hi there! How can I assist you today?",
+              "Hello! How can I help you?",
+              "Hey! What can I do for you?"
+            ]
+          },
+        {
+            "tag":"bye",
+            "patterns":[
+              "bye",
+              "Good bye",
+              "see you later",
+              "exit" 
+            ],
+            "responses":[
+              "Bye Sir","I am going.",
+              "Always For You Sir.",
+              "It'll nice to meet you again",
+              "bye"
+            ]
+        },
+        {
+            "tag":"",
+            "patterns":[
+              ""
+            ],
+            "responses":[
+              ""
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":[
+              "how are you?",
+              "Are you fine ?",
+              "How you feel now?",
+              "are you good" 
+            ],
+            "responses":[
+              "I'm Fine. How are you?",
+              "Perfect What about you?",
+              "Cool",
+              "I am good, Are you fine?"
+            ]
+        },
+          {
+            "tag": "happy",
+            "patterns": [
+              "I'm feeling good",
+              "I'm happy",
+              "I feel great"
+            ],
+            "responses": [
+              "That's wonderful to hear!",
+              "Glad to hear that! Anything I can assist you with?",
+              "Awesome! How can I assist you further?"
+            ]
+          },
+          {
+            "tag": "sad",
+            "patterns": [
+              "I'm feeling down",
+              "I'm feeling sad",
+              "I feel terrible"
+            ],
+            "responses": [
+              "I'm sorry to hear that. Would you like to talk about it?",
+              "That sounds tough. Is there anything I can do to help?",
+              "I'm here for you if you want to talk about it."
+            ]
+          },
+          {
+            "tag": "angry",
+            "patterns": [
+              "I'm angry",
+              "I'm frustrated",
+              "I feel mad"
+            ],
+            "responses": [
+              "That sounds frustrating. Can you tell me more about it?",
+              "I understand why you would feel that way. What happened?",
+              "I'm sorry you're feeling that way. Let's try to figure out how to resolve this."
+            ]
+          },
+          {
+            "tag": "anxious",
+            "patterns": [
+              "I'm anxious",
+              "I'm worried",
+              "I feel stressed"
+            ],
+            "responses": [
+              "That sounds tough. Would you like to talk about what's making you feel this way?",
+              "I'm sorry you're feeling anxious. Can you tell me more about it?",
+              "I'm here for you if you want to talk about it."
+            ]
+          },
+          {
+            "tag": "excited",
+            "patterns": [
+              "I'm excited",
+              "I'm thrilled",
+              "I feel enthusiastic"
+            ],
+            "responses": [
+              "That's great news! What are you excited about?",
+              "Awesome! What has you feeling this way?",
+              "That's wonderful to hear! What can I assist you with?"
+            ]
+          },
+          {
+            "tag": "personal",
+            "patterns": [
+              "what is your name?",
+              "what's your name?",
+              "your name?",
+              "Who are you?"
+            ],
+            "responses": [
+              "Jarvis",
+              "I Am Jarvis",
+              "An A.I. Assistant",
+              "My Name is Jarvis"
+            ]
+          },
+          {
+            "tag": "time",
+            "patterns": [
+              "what is time",
+              "what's the time",
+              "time"
+            ],
+            "responses": [
+              "time"
+            ]
+          },
+          {
+            "tag": "date",
+            "patterns": [
+              "what is date",
+              "what's the date",
+              "date"
+            ],
+            "responses": [
+              "date"
+            ]
+          },
+          {
+            "tag": "screenshot",
+            "patterns": [
+              "take screenshot",
+              "screenshot",
+              "screenclip"
+            ],
+            "responses": [
+              "screenshot"
+            ]
+          },
+          {
+            "tag": "wikipedia",
+            "patterns": [
+              "who is",
+              "about",
+              "wikipedia"
+            ],
+            "responses": [
+              "wikipedia"
+            ]
+          },
+          {
+            "tag": "google",
+            "patterns": [
+              "google search",
+              "search",
+              "what is the",
+              "what",
+              "find"
+              
+            ],
+            "responses": [
+              "google"
+            ]
+          },
+          {
+            "tag": "open",
+            "patterns": [
+              "open"
+              
+            ],
+            "responses": [
+              "open"
+            ]
+          },
+          {
+            "tag": "site",
+            "patterns": [
+              "launch",
+              "visit"
+              
+            ],
+            "responses": [
+              "site"
+            ]
+          },
+          {
+            "tag": "remember",
+            "patterns": [
+              "remember",
+              "jarvis remember that",
+              "jarvis remind me that",
+              "remind me that"
+
+            ],
+            "responses": [
+              "remember"
+            ]
+          },
+          {
+            "tag": "recall",
+            "patterns": [
+              "recall",
+              "jarvis recall everything"
+              
+            ],
+            "responses": [
+              "recall"
+            ]
+          },
+          {
+            "tag": "volume up",
+            "patterns": [
+              "volume up",
+              "jarvis volume up",
+              "jarvis increase volume",
+              "increase volume"
+
+            ],
+            "responses": [
+              "volume up"
+            ]
+          },
+          {
+            "tag": "volume down",
+            "patterns": [
+              "volume down",
+              "jarvis volume down",
+              "jarvis decrease volume",
+              "decrease volume"
+
+            ],
+            "responses": [
+              "volume down"
+            ]
+          },
+          {
+            "tag": "restart",
+            "patterns": [
+              "restart",
+              "jarvis restart the system"
+
+            ],
+            "responses": [
+              "restart"
+            ]
+          },
+          {
+            "tag": "shutdown",
+            "patterns": [
+              "shut down",
+              "shutdown",
+              "jarvis shutdown the system"
+
+            ],
+            "responses": [
+              "shutdown"
+            ]
+          },
+          {
+            "tag": "sleep",
+            "patterns": [
+              "sleep",
+              "sleep mode",
+              "jarvis sleep the system"
+
+            ],
+            "responses": [
+              "sleep"
+            ]
+          },
+          {
+            "tag": "mute",
+            "patterns": [
+              "mute",
+              "jarvis mute",
+              "mute the speaker"
+            ],
+            "responses": [
+              "mute"
+            ]
+          },
+          {
+            "tag": "type",
+            "patterns": [
+              "type",
+              "jarvis type",
+              "type in notepad",
+              "jarvis write",
+              "write"
+
+            ],
+            "responses": [
+              "type"
+            ]
+          }
+
+    ]
+}
